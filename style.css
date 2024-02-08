@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("/images/pattern-background-desktop.svg");      
+    
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.summary {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.summary img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 1rem;
+}
+
+.order h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.order_description {
+    color: hsl(224, 23%, 55%);
+}
+
+.order_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 1rem;
+    padding: 1.4rem;
+    
+    border-radius: 10px;
+    background-color: #F5F7FF
+}
+
+.order_details img {
+    width: 2.7rem;
+}
+
+.order_info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 15px;
+}
+
+.order_info p {
+    color: hsl(224, 23%, 55%);
+}
+
+.order_info h4 {
+    color: hsl(223, 47%, 23%);;
+}
+
+.order_details a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button_payment {
+    background-color: hsl(245, 75%, 52%);
+    
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px 0px rgb(192, 191, 191);
+
+    padding: 0.8rem;
+}
+
+.button_cancel {
+    background-color: #FFF;
+
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+
+    border: none;
+
+    padding: 0.5rem;
+}
+
+.button_payment:hover {
+    background-color: hsl(261, 84%, 66%);
+    cursor: pointer;
+}
+
+.button_cancel:hover {
+    color: hsl(224, 17%, 34%);
+    cursor: pointer;
+}
