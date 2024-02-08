@@ -9,7 +9,7 @@ Esta é uma solução para o [desafio do cartão de resumo do pedido no Frontend
 
 ### Links
 
-- URL do site ativo:
+- URL do site ativo: https://summary-component-three.vercel.app/
 
 ## Autor
 
